@@ -14,6 +14,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <div>
+              <h1>Proyecto Galeria</h1>
+        </div>
         <Routes>
           <Route path='/mishi1' element = {<Casquito1 />} />
           <Route path='/mishi2' element = {<Casquito2 />} />
