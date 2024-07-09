@@ -7,6 +7,7 @@ import { Casquito3 } from './Components/Casquito3';
 import { Casquito4 } from './Components/Casquito4';
 import { Casquito5 } from './Components/Casquito5';
 import { Casquito6 } from './Components/Casquito6';
+import { Navigation } from './Components/Navigation';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/mishi5' element = {<Casquito5 />} />
           <Route path='/mishi6' element = {<Casquito6 />} />
         </Routes>
+        <Navigation />
       </BrowserRouter>
     </>
   )
