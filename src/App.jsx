@@ -15,7 +15,7 @@ function App() {
     <div className='zonatrabajo'>
       <BrowserRouter>
         <div>
-              <h1 id='title' className='text-center my-3'>Proyecto Galeria</h1>
+              <h1 id='title' className='text-center my-3'>Galeria Mishi</h1>
         </div>
         <Routes>
             <Route path='/mishi1' element = {<Casquito1 className= '.image-size'/>} />
