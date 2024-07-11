@@ -1,9 +1,14 @@
 import mishi3 from '../assets/img/mishi3.jpg'
+import PropTypes from  'prop-types'; 
 
-export const Casquito3 = () => {
+export const Casquito3 = ({className}) => {
   return (
-    <div>
-      <img src= {mishi3} alt="Gato Dormilon" />
+    <div className={`image-container ${className} `} >
+      <img src= {mishi3} alt="Gato Dormilon" className='image'/>
     </div>
   )
+}
+
+Casquito3.propTypes = {
+  className: PropTypes.string
 }

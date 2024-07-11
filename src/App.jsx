@@ -12,22 +12,22 @@ import { Navigation } from './Components/Navigation';
 function App() {
 
   return (
-    <>
+    <div className='zonatrabajo'>
       <BrowserRouter>
         <div>
-              <h1>Proyecto Galeria</h1>
+              <h1 id='title' className='text-center my-3'>Proyecto Galeria</h1>
         </div>
         <Routes>
-          <Route path='/mishi1' element = {<Casquito1 />} />
-          <Route path='/mishi2' element = {<Casquito2 />} />
-          <Route path='/mishi3' element = {<Casquito3 />} />
-          <Route path='/mishi4' element = {<Casquito4 />} />
-          <Route path='/mishi5' element = {<Casquito5 />} />
-          <Route path='/mishi6' element = {<Casquito6 />} />
+            <Route path='/mishi1' element = {<Casquito1 className= '.image-size'/>} />
+            <Route path='/mishi2' element = {<Casquito2 className= '.image-size'/>} />
+            <Route path='/mishi3' element = {<Casquito3 className= '.image-size'/>} />
+            <Route path='/mishi4' element = {<Casquito4 className= '.image-size'/>} />
+            <Route path='/mishi5' element = {<Casquito5 className= '.image-size'/>} />
+            <Route path='/mishi6' element = {<Casquito6 className= '.image-size'/>} />
         </Routes>
         <Navigation />
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 

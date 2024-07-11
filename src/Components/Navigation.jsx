@@ -8,44 +8,44 @@ import { Casquito6 } from "./Casquito6";
 
 export const Navigation = () => {
   return (
-    <div>
-        <Link to = "/mishi1">
-            <figure>
+    <div className="container mt-4 father">
+        <Link to = "/mishi1"className="links">
+            <figure  className="image-size">
                <Casquito1 />
                 <figcaption>Mishi 1</figcaption>
             </figure>
         </Link>
 
-        <Link to = "/mishi2">
-            <figure>
+        <Link to = "/mishi2"className="links">
+            <figure className="image-zsize">
                <Casquito2 />
                 <figcaption>Mishi 2</figcaption>
             </figure>
         </Link>
 
-        <Link to = "/mishi3">
-            <figure>
+        <Link to = "/mishi3"className="links">
+            <figure className="image-zsize">
                <Casquito3 />
                 <figcaption>Mishi 3</figcaption>
             </figure>
         </Link>
 
-        <Link to = "/mishi4">
-            <figure>
+        <Link to = "/mishi4"className="links">
+            <figure className="image-zsize">
                <Casquito4 />
                 <figcaption>Mishi 4</figcaption>
             </figure>
         </Link>
 
-        <Link to = "/mishi5">
-            <figure>
+        <Link to = "/mishi5"className="links">
+            <figure className="image-zsize">
                <Casquito5 />
                 <figcaption>Mishi 5</figcaption>
             </figure>
         </Link>
 
-        <Link to = "/mishi6">
-            <figure>
+        <Link to = "/mishi6"className="links">
+            <figure className="image-zsize">
                <Casquito6 />    
                 <figcaption>Mishi 6</figcaption>
             </figure>
