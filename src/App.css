@@ -64,9 +64,17 @@ h1#title {
 
 .zonatrabajo {
   margin: center;
-  margin-left: 100px;
+  margin-left: 1200px;
   width: 100%;
   height:100% ;
   background-color: rgb(199, 230, 238);
 
+}
+
+#main-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }

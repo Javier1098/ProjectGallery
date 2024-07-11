@@ -17,6 +17,7 @@ function App() {
         <div>
               <h1 id='title' className='text-center my-3'>Galeria Mishi</h1>
         </div>
+        <div id='main-img-container' className='container'>
         <Routes>
             <Route path='/mishi1' element = {<Casquito1 className= '.image-size'/>} />
             <Route path='/mishi2' element = {<Casquito2 className= '.image-size'/>} />
@@ -25,7 +26,10 @@ function App() {
             <Route path='/mishi5' element = {<Casquito5 className= '.image-size'/>} />
             <Route path='/mishi6' element = {<Casquito6 className= '.image-size'/>} />
         </Routes>
+        </div>
+        <div className='container'>
         <Navigation />
+        </div >
       </BrowserRouter>
     </div>
   )
